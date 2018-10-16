@@ -1,0 +1,24 @@
+# MtreeRing NAMESPACE file
+
+import(shiny, shinydashboard, shinyWidgets)
+import(imager)
+import(magick)
+importFrom(png,readPNG)
+importFrom(jpeg,readJPEG)
+importFrom(tiff,readTIFF)
+importFrom(bmp,read.bmp)
+importFrom(dplR,write.rwl)
+importFrom(spatstat,connected,im)
+importFrom(magrittr,"%>%")
+importFrom(measuRing,graySmoothed,linearDetect)
+
+importFrom("grDevices", "as.raster", "dev.cur", "dev.new", "dev.set",
+		   "dev.off", "dev.list")
+importFrom("graphics", "abline", "axis", "layout", "lines", "locator",
+		 "mtext", "par", "plot", "points", "rasterImage", "segments",
+		 "text", "title")
+importFrom("utils", "write.csv")
+importFrom("stats", "coef", "lm")
+
+## Export function names
+export(imgInput,autoDetect,launchMtRApp,calcRingWidth,visualSelect)
