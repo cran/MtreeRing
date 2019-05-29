@@ -92,12 +92,8 @@ The dashboard has three components: a header, sidebar and body, like this
 
 <img src="inst/README-img002.png" width = "85%" height = "85%" />
 
-A workflow for the Shiny app can be found in the package vignette. Most steps are demonstrated with a gif to make the workflow more understandable.
+A workflow for the Shiny app can be found in a GitHub website (https://ropensci.github.io/MtreeRing/articles/app-MtreeRing.html). Most steps are demonstrated with a gif to make the workflow more understandable.
 
-
-```r
-vignette('app-MtreeRing')
-```
 
 ## Ring width correction
 
@@ -111,5 +107,5 @@ The line segment connecting two dots on the same ring should match the tangent o
 
 ## Code of conduct
 
-Please note that the 'MtreeRing' project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+Please note that the 'MtreeRing' project is released with a [Contributor Code of Conduct](https://www.contributor-covenant.org/version/1/0/0/code-of-conduct.html). By contributing to this project, you agree to abide by its terms.
 
