@@ -86,26 +86,30 @@ If you are not familiar with R and its command line interface, the shiny-based a
 MtreeRing::ring_app_launch()
 ```
 
-This command allows to run a Shiny-based application within the system's default web browser. The app provides a beginner-friendly graphical interface and supports more flexible mouse-based interactions.
+This command allows to run a Shiny-based application within the system's default web browser. The app provides a beginner-friendly graphical interface and supports more flexible mouse-based interactions, allowing image files to be uploaded up to 150 MB in size.
 
 The dashboard has three components: a header, sidebar and body, like this
 
 <img src="inst/README-img002.png" width = "85%" height = "85%" />
 
-A workflow for the Shiny app can be found in a GitHub website (https://ropensci.github.io/MtreeRing/articles/app-MtreeRing.html). Most steps are demonstrated with a gif to make the workflow more understandable.
-
+A workflow for the Shiny app can be found at https://ropensci.github.io/MtreeRing/articles/app-MtreeRing.html. Most steps are demonstrated with a gif to make the workflow more understandable.
 
 ## Ring width correction
 
 If an increment borer is used to extract samples, it is well known that the auger sometimes fails to traverse the pith of the sampled tree but passes through one side of the pith at a certain distance. Tangent lines of rings close to the pith are therefore not perpendicular to the horizontal path, which may lead to considerable errors in ring widths.
 
-Under such conditions, you can create two paths by setting the argument `incline = TRUE`, or by ticking the checkbox "**Inclined tree rings**". See this example.
+Under such conditions, you can create two paths by setting the argument `incline = TRUE`, or by ticking the checkbox **Inclined tree rings**. See this example.
 
 <img src="inst/RingCorrection.png" width = "80%" height = "80%" /> 
 
 The line segment connecting two dots on the same ring should match the tangent of a tree ring border. The corrected ring width is estimated from the distance between adjacent rings and orientation of ring borders.
 
+## Support
+
+Any feedback, bug reports or suggestions are welcomed. If you have a comment on `MtreeRing`, or you find a bug in the released or beta versions, please submit bugs and/or feature requests at https://github.com/ropensci/MtreeRing/issues. Include the package version, OS, and any command-line required to reproduce the problem.
+
 ## Code of conduct
 
-Please note that the 'MtreeRing' project is released with a [Contributor Code of Conduct](https://www.contributor-covenant.org/version/1/0/0/code-of-conduct.html). By contributing to this project, you agree to abide by its terms.
+I will try to add new features based on user feedback. It is hoped that others will contribute additional useful features. Please note that the 'MtreeRing' project is released with a [Contributor Code of Conduct](https://github.com/ropensci/MtreeRing/blob/master/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
 
+[![ropensci_footer](https://ropensci.org/public_images/ropensci_footer.png)](https://ropensci.org)

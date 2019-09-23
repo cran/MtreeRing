@@ -21,8 +21,8 @@
 #' This function allows the user to create a path, and manually mark 
 #' ring borders by clicking on the graphical window. 
 #' 
-#' An example demonstrated with pictures can be found here:
-#' \url{https://ropensci.github.io/MtreeRing/articles/pith-MtreeRing.html}
+#' An example demonstrated with pictures can be found in the package vignette. 
+#' Type \code{vignette('pith-MtreeRing')} to see this example.
 #' 
 #' \itemize{
 #' \item

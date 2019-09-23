@@ -41,8 +41,8 @@ If \code{add = TRUE}, graphics windows opened by \code{\link{ring_detect}}
 will be activated sequentially. When a graphics window is activated, 
 the user can add new borders by left-clicking the mouse along the path.
 Every click draws a point representing the ring border.
-An example of adding ring borders can be found here:
-\url{https://ropensci.github.io/MtreeRing/articles/detection-MtreeRing.html}
+Type \code{vignette('detection-MtreeRing')} to see 
+an example of adding ring borders.
 
 The identification process does not automatically stop by itself.
 
