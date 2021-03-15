@@ -5,11 +5,11 @@ MtreeRing
 <!--require(knitr);require(markdown);knit("README.Rmd")-->
 
 
-**Authors:** [Jingning Shi](https://www.researchgate.net/profile/Jingning_Shi), [Wei Xiang](https://www.researchgate.net/profile/Wei_Xiang15)<br/>
+**Authors:** [Jingning Shi](https://www.researchgate.net/profile/Jingning-Shi), [Wei Xiang](https://www.researchgate.net/profile/Wei-Xiang-11)<br/>
 **License:** [GPL3](https://cran.r-project.org/web/licenses/GPL-3)
 
 <!--pkg badges-->
-[![TravisCI Build Status](https://travis-ci.org/ropensci/MtreeRing.svg?branch=master)](https://travis-ci.org/ropensci/MtreeRing.svg?branch=master)
+[![TravisCI Build Status](https://api.travis-ci.org/ropensci/MtreeRing.svg?branch=master)](https://api.travis-ci.org/ropensci/MtreeRing.svg?branch=master)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/cti7i110hecl8kpf?svg=true)](https://ci.appveyor.com/project/JingningShi/MtreeRing)
 [![codecov](https://codecov.io/github/ropensci/MtreeRing/coverage.svg?branch=master)](https://codecov.io/github/ropensci/MtreeRing?branch=master)
 [![ropensci](https://badges.ropensci.org/287_status.svg)](https://github.com/ropensci/software-review/issues/287)
