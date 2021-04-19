@@ -1,5 +1,11 @@
 MtreeRing News
 =======
+### MtreeRing 1.4.5 (2021-04-20)
+- Update CSS styles of the graphical user interface
+
+### MtreeRing 1.4.4 (2021-03-15)
+- Update links in the README file
+
 ### MtreeRing 1.4.3 (2021-03-14)
 - Replace ‘spatstat’ with ‘spatstat.geom’ based on feedback from the Spatstat Team
 
